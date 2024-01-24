@@ -13,6 +13,7 @@ const TableBookings = ({ bookings }) => {
   const navigate = useNavigate();
   const [openModal, setOpenModal] = useState(false);
   const [infoNotes, setInfoNotes] = useState(false);
+  console.log(bookings);
 
   return (
     <>
@@ -33,14 +34,14 @@ const TableBookings = ({ bookings }) => {
             bookings.map((data) => (
               <TrbodyStyled key={data.id}>
                 <TdbodyNameStyled>
-                  <img src={data.photo} alt="" />
+                  <img src={data.room.photo} alt="" />
                   <div>
                     <span>{data.id}</span>
                     <p>{data.name}</p>
                   </div>
                 </TdbodyNameStyled>
                 <TdbodyStyled>
-                  {data.orderDate} {data.checkinTime}
+                  {data.orderDate} <br /> {data.checkinTime}
                 </TdbodyStyled>
                 <TdbodyStyled>
                   <p>{data.checkin}</p> <span>{data.checkinTime}</span>
@@ -66,7 +67,7 @@ const TableBookings = ({ bookings }) => {
                   )}
                 </TdbodyStyled>
                 <TdbodyStyled>
-                  <p>{data.room}</p>
+                  <p>{data.room.bed}</p>
                 </TdbodyStyled>
                 <TdbodyStyled>
                   {data.check === "in" && (

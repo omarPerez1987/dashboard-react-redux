@@ -46,13 +46,7 @@ const BokkingsPage = () => {
       switchBookingsList();
       setSpinner(false);
     }
-  }, [
-    dispatch,
-    bookingsListData,
-    bookingsListStatus,
-    stateStatus,
-    rooms,
-  ]);
+  }, [dispatch, bookingsListData, bookingsListStatus, stateStatus, rooms]);
 
   const bookingAndRoom = (selectList) => {
     const combinedData = [];
@@ -65,7 +59,7 @@ const BokkingsPage = () => {
       if (correspondingRoom) {
         combinedData.push({
           ...booking,
-          room: correspondingRoom.room,
+          room: correspondingRoom,
         });
       }
     });

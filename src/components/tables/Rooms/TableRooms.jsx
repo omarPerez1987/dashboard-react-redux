@@ -35,7 +35,7 @@ const TableRooms = ({ rooms }) => {
                 </div>
               </TdbodyNameStyled>
               <TdbodyStyled>{room.bed}</TdbodyStyled>
-              <TdbodyStyled>{room.facilities}</TdbodyStyled>
+              <TdbodyStyled>{room.facilities.join(", ")}</TdbodyStyled>
               <TdbodyStyled>
                 <p>{room.price}</p>
               </TdbodyStyled>

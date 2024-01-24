@@ -17,6 +17,7 @@ export const TdbodyNameStyled = styled.td`
   .image-room {
     width: 150px;
     height: 77px;
+    min-width: 150px;
   }
   div {
     display: flex;

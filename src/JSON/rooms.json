@@ -1,6 +1,6 @@
 [
   {
-    "photo": "http://dummyimage.com/155x77.png/cc0000/ffffff",
+    "photo": "https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=600",
     "id": "98poe",
     "room": "Deluxe A - 13",
     "bed": "Double Bed",
@@ -10,13 +10,13 @@
       "Breakfast"
     ],
     "description": "a feugiat et eros vestibulum",
-    "price": 200,
+    "price": 250,
     "discount": "20%",
     "cancel": "vivamus in felis",
     "status": "Available"
   },
   {
-    "photo": "http://dummyimage.com/155x77.png/5fa2dd/ffffff",
+    "photo": "https://images.pexels.com/photos/271743/pexels-photo-271743.jpeg?auto=compress&cs=tinysrgb&w=600",
     "id": "9863mlk",
     "room": "Deluxe A - 23",
     "bed": "Suite",
@@ -26,29 +26,29 @@
       "Shop near"
     ],
     "description": "quam pharetra magna ac consequat metus sapien ut",
-    "price": 200,
+    "price": 380,
     "discount": "",
     "cancel": "magnis dis parturient montes",
     "status": "Available"
   },
   {
-    "photo": "http://dummyimage.com/155x77.png/5fa2dd/ffffff",
+    "photo": "https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=600",
     "id": "654bnme",
     "room": "Deluxe A - 17",
     "bed": "Double Bed",
     "facilities": [
       "24/7 Online Support",
       "Smart Security",
-      "High speed WiFi"
+      "Cleaning"
     ],
     "description": "nisi eu orci mauris lacinia sapien quis",
-    "price": 200,
+    "price": 250,
     "discount": "10%",
     "cancel": "turpis eget elit sodales",
     "status": "Booked"
   },
   {
-    "photo": "http://dummyimage.com/155x77.png/cc0000/ffffff",
+    "photo": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=600",
     "id": "986caq",
     "room": "Deluxe A - 14",
     "bed": "SIngle Bed",
@@ -58,13 +58,13 @@
       "Strong Locker"
     ],
     "description": "elementum ligula vehicula consequat morbi a ipsum integer a nibh",
-    "price": 200,
+    "price": 130,
     "discount": "20%",
     "cancel": "orci vehicula condimentum",
     "status": "Available"
   },
   {
-    "photo": "http://dummyimage.com/155x77.png/dddddd/000000",
+    "photo": "https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=600",
     "id": "98ccaa",
     "room": "Deluxe A - 17",
     "bed": "Double Bed",
@@ -74,13 +74,13 @@
       "Cleaning"
     ],
     "description": "consectetuer adipiscing elit proin interdum mauris",
-    "price": 200,
+    "price": 250,
     "discount": "20%",
     "cancel": "dapibus dolor vel est donec",
     "status": "Available"
   },
   {
-    "photo": "http://dummyimage.com/155x77.png/5fa2dd/ffffff",
+    "photo": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=600",
     "id": "1156ac",
     "room": "Deluxe A - 6",
     "bed": "SIngle Bed",
@@ -90,13 +90,13 @@
       "Single bed"
     ],
     "description": "nec molestie sed justo pellentesque viverra pede ac diam",
-    "price": 200,
+    "price": 130,
     "discount": "20%",
     "cancel": "neque aenean auctor gravida",
     "status": "Available"
   },
   {
-    "photo": "http://dummyimage.com/155x77.png/dddddd/000000",
+    "photo": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=600",
     "id": "lope1156",
     "room": "Deluxe A - 4",
     "bed": "SIngle Bed",
@@ -106,12 +106,28 @@
     ],
     "description": "amet lobortis sapien sapien non mi integer ac",
     "price": 200,
-    "discount": "",
+    "discount": 130,
     "cancel": "sodales scelerisque mauris",
     "status": "Booked"
   },
   {
-    "photo": "http://dummyimage.com/155x77.png/5fa2dd/ffffff",
+    "photo": "https://images.pexels.com/photos/271743/pexels-photo-271743.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "id": "hbsdh154",
+    "room": "Deluxe A - 6",
+    "bed": "Suite",
+    "facilities": [
+      "Cleaning",
+      "Grocery",
+      "Shop near"
+    ],
+    "description": "fusce congue diam id ornare imperdiet sapien urna pretium nisl",
+    "price": 380,
+    "discount": "20%",
+    "cancel": "vestibulum ac est lacinia nisi",
+    "status": "Booked"
+  },
+  {
+    "photo": "https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=600",
     "id": "aybc89",
     "room": "Deluxe A - 23",
     "bed": "Double Bed",
@@ -121,13 +137,13 @@
       "Smart Security"
     ],
     "description": "quisque erat eros viverra eget congue eget semper",
-    "price": 200,
+    "price": 250,
     "discount": "20%",
     "cancel": "neque vestibulum eget",
     "status": "Available"
   },
   {
-    "photo": "http://dummyimage.com/155x77.png/dddddd/000000",
+    "photo": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=600",
     "id": "akjc565",
     "room": "Deluxe A - 30",
     "bed": "SIngle Bed",
@@ -137,13 +153,13 @@
       "Shower relax"
     ],
     "description": "et magnis dis parturient montes nascetur ridiculus",
-    "price": 200,
+    "price": 130,
     "discount": "20%",
     "cancel": "adipiscing elit proin risus",
     "status": "Booked"
   },
   {
-    "photo": "http://dummyimage.com/155x77.png/5fa2dd/ffffff",
+    "photo": "https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=600",
     "id": "jah51",
     "room": "Deluxe A - 6",
     "bed": "Double Bed",
@@ -153,13 +169,13 @@
       "Shop near"
     ],
     "description": "fusce congue diam id ornare imperdiet sapien urna pretium nisl",
-    "price": 200,
+    "price": 250,
     "discount": "20%",
     "cancel": "vestibulum ac est lacinia nisi",
     "status": "Booked"
   },
   {
-    "photo": "http://dummyimage.com/155x77.png/5fa2dd/ffffff",
+    "photo": "https://images.pexels.com/photos/2631746/pexels-photo-2631746.jpeg?auto=compress&cs=tinysrgb&w=600",
     "id": "haaoh154",
     "room": "Deluxe A - 23",
     "bed": "Double Bed",
@@ -169,13 +185,13 @@
       "Smart Security"
     ],
     "description": "quisque erat eros viverra eget congue eget semper",
-    "price": 200,
+    "price": 250,
     "discount": "20%",
     "cancel": "neque vestibulum eget",
     "status": "Available"
   },
   {
-    "photo": "http://dummyimage.com/155x77.png/dddddd/000000",
+    "photo": "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg?auto=compress&cs=tinysrgb&w=600",
     "id": "155dh154",
     "room": "Deluxe A - 30",
     "bed": "SIngle Bed",
@@ -185,25 +201,9 @@
       "Shower relax"
     ],
     "description": "et magnis dis parturient montes nascetur ridiculus",
-    "price": 200,
+    "price": 130,
     "discount": "20%",
     "cancel": "adipiscing elit proin risus",
-    "status": "Booked"
-  },
-  {
-    "photo": "http://dummyimage.com/155x77.png/5fa2dd/ffffff",
-    "id": "hbsdh154",
-    "room": "Deluxe A - 6",
-    "bed": "Double Bed",
-    "facilities": [
-      "Cleaning",
-      "Grocery",
-      "Shop near"
-    ],
-    "description": "fusce congue diam id ornare imperdiet sapien urna pretium nisl",
-    "price": 200,
-    "discount": "20%",
-    "cancel": "vestibulum ac est lacinia nisi",
     "status": "Booked"
   }
 ]

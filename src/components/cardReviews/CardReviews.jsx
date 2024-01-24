@@ -17,7 +17,7 @@ const CardReviews = ({ contact }) => {
         )} ...`}</p>
         <div>
           <div>
-            <img src="#" alt="" />
+            <img src={contact.photo} alt="" />
             <div className="name-user">
               <h5>
                 {contact.name} {contact.last_name}

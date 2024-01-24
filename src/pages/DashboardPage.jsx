@@ -16,7 +16,7 @@ import { getContactsListApiThunk } from "../features/contact/contactsThunk";
 
 const DashboardPage = () => {
   const dispatch = useDispatch();
-  const contactsListDataPublish = useSelector(getContactsPublish)
+  const contactsListDataPublish = useSelector(getContactsPublish);
   const contactsListStatus = useSelector(getContactStatus);
   const contactsListError = useSelector(getContactsError);
   const [contacts, setContacts] = useState([]);
