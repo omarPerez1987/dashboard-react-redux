@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { CardReviewsStyled } from "../../componentsStyle/cardReviews/CardreviewsStyled";
 import { CiCircleRemove } from "react-icons/ci";
 import ModalReviews from "../modal/ModalReviews";
 import { useDispatch } from "react-redux";
 import { updateArchived } from "../../features/contact/contactsSlices";
+import { CardReviewsStyled } from "../../componentsStyle/cardReviews/CardreviewsStyled";
 
 const CardReviews = ({ contact }) => {
   const dispatch = useDispatch();
