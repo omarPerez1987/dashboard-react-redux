@@ -3,7 +3,7 @@ import { CiCircleRemove } from "react-icons/ci";
 import ModalReviews from "../modal/ModalReviews";
 import { useDispatch } from "react-redux";
 import { updateArchived } from "../../features/contact/contactsSlices";
-import { CardReviewsStyled } from "../../componentsStyle/cardReviews/CardreviewsStyled";
+import { CardReviewsStyled } from "../../componentsStyle/cardReviews/CardReviewsStyled";
 
 const CardReviews = ({ contact }) => {
   const dispatch = useDispatch();
