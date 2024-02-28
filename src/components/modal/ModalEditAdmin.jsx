@@ -8,6 +8,7 @@ import { CiCircleRemove } from "react-icons/ci";
 import { useDispatch } from "react-redux";
 import { updateAdmin } from "../../features/admin/adminSlice";
 import { toast } from "react-toastify";
+import { faker } from "@faker-js/faker";
 
 const ModalEditAdmin = ({ setOpenModal }) => {
   const dispatch = useDispatch();
@@ -16,6 +17,7 @@ const ModalEditAdmin = ({ setOpenModal }) => {
     name: "",
     email: "test@test.com",
     password: "9999",
+    photo: faker.image.avatarLegacy(),
   };
   const [formData, setFormData] = useState(initialStateForm);
   const handleChange = (event) => {
