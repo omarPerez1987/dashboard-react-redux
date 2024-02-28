@@ -47,7 +47,7 @@ const NavMenu = ({ menuOpen }) => {
             </NavLinkStyled>
           </div>
           <CardAdminStyled>
-            <img className="card-img" src={admin} alt="" />
+            <img className="card-img" src={adminData.photo} alt="" />
             <h3 className="card-name">{adminData.name}</h3>
             <p className="card-email">{adminData.email}</p>
             <button className="card-button" onClick={() => setOpenModal(true)}>

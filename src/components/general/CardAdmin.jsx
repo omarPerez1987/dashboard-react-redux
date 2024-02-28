@@ -5,15 +5,17 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useDispatch } from "react-redux";
 import { addAdmin } from "../../features/admin/adminSlice";
+import { faker } from "@faker-js/faker";
 
 const CardAdmin = () => {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
   const navigate = useNavigate();
 
   const initialState = {
     name: "",
     email: "",
     password: "",
+    photo: faker.image.avatarLegacy(),
   };
 
   const [formData, setFormData] = useState(initialState);
@@ -31,7 +33,7 @@ const CardAdmin = () => {
     if (formData.email === "test@test.com" && formData.password === "9999") {
       localStorage.setItem("formData", JSON.stringify(formData));
       navigate("/home/dashboard");
-      dispatch(addAdmin(formData))
+      dispatch(addAdmin(formData));
     } else {
       toast.error("Escribe correctamente los datos");
       setFormData(initialState);
